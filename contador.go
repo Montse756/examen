@@ -9,7 +9,7 @@ func Canasta(puntos int) (string, error) {
 	if puntos!=1 && puntos!=2 && puntos!=3{
 		return "",errors.New("Los puntos deben ser 1 2 o 3")
 	} 
-	mensaje := fmt.Sprintf("Canasta de %d puntos",puntos)
+	mensaje := fmt.Sprintf("Canasta de %d puntos\n",puntos)
 	return mensaje,nil
 }
 
